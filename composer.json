@@ -1,0 +1,26 @@
+{
+    "name": "yuanxinsdk/token",
+    "description": "ceshi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cdb",
+            "email": "chaidongb@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chaibin/yuanxinsdk-token"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "yuanxinsdk\\token\\": "src/yuanxinsdk/token"
+        }
+    }
+}
